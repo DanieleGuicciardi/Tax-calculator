@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VSCode\\Programmi\\progetti settimanali\\Tax-calculator\\taxCalculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FF0980B-74A0-4AE7-B3B7-5E365A3CF1F0}|taxCalculator\\taxCalculator.csproj|d:\\vscode\\programmi\\progetti settimanali\\tax-calculator\\taxcalculator\\taxcalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FF0980B-74A0-4AE7-B3B7-5E365A3CF1F0}|taxCalculator\\taxCalculator.csproj|solutionrelative:taxcalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VSCode\\Programmi\\progetti settimanali\\Tax-calculator\\taxCalculator\\taxCalculator\\Program.cs",
+              "RelativeDocumentMoniker": "taxCalculator\\Program.cs",
+              "ToolTip": "D:\\VSCode\\Programmi\\progetti settimanali\\Tax-calculator\\taxCalculator\\taxCalculator\\Program.cs",
+              "RelativeToolTip": "taxCalculator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:46:23.588Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
