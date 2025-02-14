@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{3FF0980B-74A0-4AE7-B3B7-5E365A3CF1F0}|taxCalculator\\taxCalculator.csproj|solutionrelative:taxcalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FF0980B-74A0-4AE7-B3B7-5E365A3CF1F0}|taxCalculator\\taxCalculator.csproj|d:\\vscode\\programmi\\progetti settimanali\\tax-calculator\\taxcalculator\\taxcalculator\\contribuente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FF0980B-74A0-4AE7-B3B7-5E365A3CF1F0}|taxCalculator\\taxCalculator.csproj|solutionrelative:taxcalculator\\contribuente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FF0980B-74A0-4AE7-B3B7-5E365A3CF1F0}|taxCalculator\\taxCalculator.csproj|d:\\vscode\\programmi\\progetti settimanali\\tax-calculator\\taxcalculator\\taxcalculator\\taxpayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FF0980B-74A0-4AE7-B3B7-5E365A3CF1F0}|taxCalculator\\taxCalculator.csproj|solutionrelative:taxcalculator\\taxpayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Contribuente.cs",
-              "DocumentMoniker": "D:\\VSCode\\Programmi\\progetti settimanali\\Tax-calculator\\taxCalculator\\taxCalculator\\Contribuente.cs",
-              "RelativeDocumentMoniker": "taxCalculator\\Contribuente.cs",
-              "ToolTip": "D:\\VSCode\\Programmi\\progetti settimanali\\Tax-calculator\\taxCalculator\\taxCalculator\\Contribuente.cs",
-              "RelativeToolTip": "taxCalculator\\Contribuente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAABcAAAAAAAAAA==",
+              "Title": "Taxpayer.cs",
+              "DocumentMoniker": "D:\\VSCode\\Programmi\\progetti settimanali\\Tax-calculator\\taxCalculator\\taxCalculator\\Taxpayer.cs",
+              "RelativeDocumentMoniker": "taxCalculator\\Taxpayer.cs",
+              "ToolTip": "D:\\VSCode\\Programmi\\progetti settimanali\\Tax-calculator\\taxCalculator\\taxCalculator\\Taxpayer.cs",
+              "RelativeToolTip": "taxCalculator\\Taxpayer.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAkwEoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T09:50:28.115Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -41,7 +42,7 @@
               "RelativeDocumentMoniker": "taxCalculator\\Program.cs",
               "ToolTip": "D:\\VSCode\\Programmi\\progetti settimanali\\Tax-calculator\\taxCalculator\\taxCalculator\\Program.cs",
               "RelativeToolTip": "taxCalculator\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T09:46:23.588Z",
               "EditorCaption": ""
