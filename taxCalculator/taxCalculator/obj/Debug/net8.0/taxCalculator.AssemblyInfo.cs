@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("taxCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a0fc3d7458d1811edb27af40c190fd85107c681")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a150344d73e14245876860209c1025c7834f466")]
 [assembly: System.Reflection.AssemblyProductAttribute("taxCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("taxCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

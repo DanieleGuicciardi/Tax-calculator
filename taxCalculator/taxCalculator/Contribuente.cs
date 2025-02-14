@@ -1,20 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
-
-internal class Contribuente
+public class Contribuente
 {
-    private string Nome {  get; set; }
-    private string Cognome { get; set; }
-    private string DataNascita { get; set; }  
+    private string Nome { get; }
+    private string Cognome { get; }
+    private string DataNascita { get;  }
     private string CodiceFiscale { get; set; }  // key
-    private string Sesso { get; set; }   
-    private string ComuneResidenza { get; set; }
-    private int RedditoAnnuale { get; set; }
+    private string Sesso { get; }
+    private string ComuneResidenza { get; }
+    private double RedditoAnnuale { get; set; }
 
     public Contribuente(string nome, string cognome, string dataNascita, string codiceFiscale, string sesso, string comuneResidenza)
     {
@@ -27,49 +21,86 @@ internal class Contribuente
         RedditoAnnuale = 0;
     }
 
-    public void CalcoloImposte()
+    public void SetReddito(double reddito)
     {
-        if ((RedditoAnnuale >= 0) || (RedditoAnnuale <= 15000))
+        if (reddito >= 0)
+            RedditoAnnuale = reddito;
+        else
+            Console.WriteLine("Errore: Il reddito non può essere negativo!");
+    }
+
+    public double CalcoloImposte()
+    {
+        double imposta = 0;
+
+        if (RedditoAnnuale >= 0 && RedditoAnnuale <= 15000)
         {
-            //prima funzione
+            imposta = RedditoAnnuale * 0.23;
+            Console.WriteLine("Rientri nella prima categoria!");
+            Console.WriteLine($"Imposta da versare: ${imposta}");
+            Console.WriteLine("Aliquota del 23%");
         }
-        else if ((RedditoAnnuale > 15000) || (RedditoAnnuale <= 28000))
+        else if (RedditoAnnuale > 15000 && RedditoAnnuale <= 28000)
         {
-            //seconda funzione
+            imposta = 3450 + (RedditoAnnuale - 15000) * 0.27;
+            Console.WriteLine("Rientri nella seconda categoria!");
+            Console.WriteLine($"Imposta da versare: ${imposta}");
+            Console.WriteLine("Aliquota del 27%(eccedenza dei 15k) + 3450$");
         }
-        else if ((RedditoAnnuale > 28000) || (RedditoAnnuale <= 55000))
+        else if (RedditoAnnuale > 28000 && RedditoAnnuale <= 55000)
         {
-            //terza funzione
+            imposta = 6960 + (RedditoAnnuale - 28000) * 0.38;
+            Console.WriteLine("Rientri nella terza categoria!");
+            Console.WriteLine($"Imposta da versare: ${imposta}");
+            Console.WriteLine("Aliquota del 38%(eccedenza dei 28k) + 6960$");
         }
-        else if ((RedditoAnnuale > 55000) || (RedditoAnnuale <= 75000))
+        else if (RedditoAnnuale > 55000 && RedditoAnnuale <= 75000)
         {
-            //quarta funzione
+            imposta = 17220 + (RedditoAnnuale - 55000) * 0.41;
+            Console.WriteLine("Rientri nella quarta categoria!");
+            Console.WriteLine($"Imposta da versare: ${imposta}");
+            Console.WriteLine("Aliquota del 41%(eccedenza dei 55k) + 17220$");
         }
         else if (RedditoAnnuale > 75000)
         {
-            //quinta funzione
+            imposta = 25420 + (RedditoAnnuale - 75000) * 0.43;
+            Console.WriteLine("Rientri nell ultima categoria!");
+            Console.WriteLine($"Imposta da versare: ${imposta}");
+            Console.WriteLine("Aliquota del 43%(eccedenza dei 75000k) + 25420$");
         }
-        else
-        {
-            Console.WriteLine("Errore! Ricontrollare la valuta immessa!");
-        }
+
+        return imposta;
     }
 
-        
     public void funzione()
     {
         Console.WriteLine("Calcolatore delle imposte, perfavore digita il tuo codice fiscale: ");
         string checkCodiceFiscale = Console.ReadLine();
 
-        while (checkCodiceFiscale == CodiceFiscale)
+        if (checkCodiceFiscale == CodiceFiscale)
         {
             Console.WriteLine($"Buongiorno {Nome}, digita qui il tuo reddito: ");
-            int RedditoAnnuale = int.Parse(Console.ReadLine());
+            if (!double.TryParse(Console.ReadLine(), out double reddito))
+            {
+                Console.WriteLine("Errore: Inserire un numero valido!");
+                return;
+            }
+
+            SetReddito(reddito);
+            Console.WriteLine("Calcolo in corso... premere ENTER per stampare il preventivo!");
+            Console.ReadLine();
+
+            Console.WriteLine("Ricevuta:");
+            Console.WriteLine($"Contribuente: {Nome} {Cognome},");
+            Console.WriteLine($"Nato il {DataNascita} ({Sesso}),");
+            Console.WriteLine($"Residente in {ComuneResidenza},");
+            Console.WriteLine($"Codice fiscale: {CodiceFiscale}");
+            Console.WriteLine($"Reddito dichiarato: {RedditoAnnuale}$");
             CalcoloImposte();
         }
-
+        else
+        {
+            Console.WriteLine("Errore: Codice fiscale non presente nel database o non valido.");
+        }
     }
-    
-
 }
-

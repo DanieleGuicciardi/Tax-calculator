@@ -1,0 +1,15 @@
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\obj\Debug\net8.0\taxCalculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\obj\Debug\net8.0\taxCalculator.AssemblyInfoInputs.cache
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\obj\Debug\net8.0\taxCalculator.AssemblyInfo.cs
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\obj\Debug\net8.0\taxCalculator.csproj.CoreCompileInputs.cache
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\obj\Debug\net8.0\taxCalculator.sourcelink.json
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\bin\Debug\net8.0\taxCalculator.exe
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\bin\Debug\net8.0\taxCalculator.deps.json
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\bin\Debug\net8.0\taxCalculator.runtimeconfig.json
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\bin\Debug\net8.0\taxCalculator.dll
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\bin\Debug\net8.0\taxCalculator.pdb
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\obj\Debug\net8.0\taxCalculator.dll
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\obj\Debug\net8.0\refint\taxCalculator.dll
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\obj\Debug\net8.0\taxCalculator.pdb
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\obj\Debug\net8.0\taxCalculator.genruntimeconfig.cache
+D:\VSCode\Programmi\progetti settimanali\Tax-calculator\taxCalculator\taxCalculator\obj\Debug\net8.0\ref\taxCalculator.dll
